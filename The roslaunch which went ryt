@@ -1,0 +1,504 @@
+roslaunch ur3_sim simulation.launch 
+... logging to /home/hrishikesh/.ros/log/0851a154-f7b1-11ec-889e-cf6b6a21f437/roslaunch-hrishikesh-Lenovo-Yoga-C740-14IML-6384.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+started roslaunch server http://hrishikesh-Lenovo-Yoga-C740-14IML:33845/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /arm_controller/action_monitor_rate: 10
+ * /arm_controller/constraints/elbow_joint/goal: 0.1
+ * /arm_controller/constraints/elbow_joint/trajectory: 0.1
+ * /arm_controller/constraints/goal_time: 0.6
+ * /arm_controller/constraints/shoulder_lift_joint/goal: 0.1
+ * /arm_controller/constraints/shoulder_lift_joint/trajectory: 0.1
+ * /arm_controller/constraints/shoulder_pan_joint/goal: 0.1
+ * /arm_controller/constraints/shoulder_pan_joint/trajectory: 0.1
+ * /arm_controller/constraints/stopped_velocity_tolerance: 0.05
+ * /arm_controller/constraints/wrist_1_joint/goal: 0.1
+ * /arm_controller/constraints/wrist_1_joint/trajectory: 0.1
+ * /arm_controller/constraints/wrist_2_joint/goal: 0.1
+ * /arm_controller/constraints/wrist_2_joint/trajectory: 0.1
+ * /arm_controller/constraints/wrist_3_joint/goal: 0.1
+ * /arm_controller/constraints/wrist_3_joint/trajectory: 0.1
+ * /arm_controller/joints: ['shoulder_pan_jo...
+ * /arm_controller/state_publish_rate: 25
+ * /arm_controller/stop_trajectory_duration: 0.5
+ * /arm_controller/type: position_controll...
+ * /gazebo/enable_ros_network: True
+ * /gripper/action_monitor_rate: 10
+ * /gripper/constraints/goal_time: 0.6
+ * /gripper/constraints/left_gear_joint/goal: 0.1
+ * /gripper/constraints/left_gear_joint/trajectory: 0.1
+ * /gripper/constraints/stopped_velocity_tolerance: 0.05
+ * /gripper/joint: left_gear_joint
+ * /gripper/state_publish_rate: 25
+ * /gripper/stop_trajectory_duration: 0.5
+ * /gripper/type: position_controll...
+ * /joint_group_position_controller/joints: ['shoulder_pan_jo...
+ * /joint_group_position_controller/type: position_controll...
+ * /joint_state_controller/publish_rate: 50
+ * /joint_state_controller/type: joint_state_contr...
+ * /move_group/allow_trajectory_execution: True
+ * /move_group/capabilities: move_group/MoveGr...
+ * /move_group/controller_list: [{'name': '', 'ac...
+ * /move_group/endeffector/planner_configs: ['SBLkConfigDefau...
+ * /move_group/jiggle_fraction: 0.05
+ * /move_group/manipulator/longest_valid_segment_fraction: 0.01
+ * /move_group/manipulator/planner_configs: ['SBLkConfigDefau...
+ * /move_group/max_range: 5.0
+ * /move_group/max_safe_path_cost: 1
+ * /move_group/moveit_controller_manager: moveit_simple_con...
+ * /move_group/moveit_manage_controllers: True
+ * /move_group/octomap_resolution: 0.025
+ * /move_group/planner_configs/BKPIECEkConfigDefault/border_fraction: 0.9
+ * /move_group/planner_configs/BKPIECEkConfigDefault/failed_expansion_score_factor: 0.5
+ * /move_group/planner_configs/BKPIECEkConfigDefault/min_valid_path_fraction: 0.5
+ * /move_group/planner_configs/BKPIECEkConfigDefault/range: 0.0
+ * /move_group/planner_configs/BKPIECEkConfigDefault/type: geometric::BKPIECE
+ * /move_group/planner_configs/ESTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/ESTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/ESTkConfigDefault/type: geometric::EST
+ * /move_group/planner_configs/KPIECEkConfigDefault/border_fraction: 0.9
+ * /move_group/planner_configs/KPIECEkConfigDefault/failed_expansion_score_factor: 0.5
+ * /move_group/planner_configs/KPIECEkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/KPIECEkConfigDefault/min_valid_path_fraction: 0.5
+ * /move_group/planner_configs/KPIECEkConfigDefault/range: 0.0
+ * /move_group/planner_configs/KPIECEkConfigDefault/type: geometric::KPIECE
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/border_fraction: 0.9
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/min_valid_path_fraction: 0.5
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/range: 0.0
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/type: geometric::LBKPIECE
+ * /move_group/planner_configs/PRMkConfigDefault/max_nearest_neighbors: 10
+ * /move_group/planner_configs/PRMkConfigDefault/type: geometric::PRM
+ * /move_group/planner_configs/PRMstarkConfigDefault/type: geometric::PRMstar
+ * /move_group/planner_configs/RRTConnectkConfigDefault/range: 0.0
+ * /move_group/planner_configs/RRTConnectkConfigDefault/type: geometric::RRTCon...
+ * /move_group/planner_configs/RRTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/RRTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/RRTkConfigDefault/type: geometric::RRT
+ * /move_group/planner_configs/RRTstarkConfigDefault/delay_collision_checking: 1
+ * /move_group/planner_configs/RRTstarkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/RRTstarkConfigDefault/range: 0.0
+ * /move_group/planner_configs/RRTstarkConfigDefault/type: geometric::RRTstar
+ * /move_group/planner_configs/SBLkConfigDefault/range: 0.0
+ * /move_group/planner_configs/SBLkConfigDefault/type: geometric::SBL
+ * /move_group/planner_configs/TRRTkConfigDefault/frountierNodeRatio: 0.1
+ * /move_group/planner_configs/TRRTkConfigDefault/frountier_threshold: 0.0
+ * /move_group/planner_configs/TRRTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/TRRTkConfigDefault/init_temperature: 10e-6
+ * /move_group/planner_configs/TRRTkConfigDefault/k_constant: 0.0
+ * /move_group/planner_configs/TRRTkConfigDefault/max_states_failed: 10
+ * /move_group/planner_configs/TRRTkConfigDefault/min_temperature: 10e-10
+ * /move_group/planner_configs/TRRTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/TRRTkConfigDefault/temp_change_factor: 2.0
+ * /move_group/planner_configs/TRRTkConfigDefault/type: geometric::TRRT
+ * /move_group/planning_plugin: ompl_interface/OM...
+ * /move_group/planning_scene_monitor/publish_geometry_updates: True
+ * /move_group/planning_scene_monitor/publish_planning_scene: True
+ * /move_group/planning_scene_monitor/publish_state_updates: True
+ * /move_group/planning_scene_monitor/publish_transforms_updates: True
+ * /move_group/request_adapters: default_planner_r...
+ * /move_group/start_state_max_bounds_error: 0.1
+ * /move_group/trajectory_execution/allowed_execution_duration_scaling: 1.2
+ * /move_group/trajectory_execution/allowed_goal_duration_margin: 0.5
+ * /move_group/trajectory_execution/execution_duration_monitoring: False
+ * /move_group/use_controller_manager: False
+ * /robot_description: <?xml version="1....
+ * /robot_description_kinematics/manipulator/kinematics_solver: kdl_kinematics_pl...
+ * /robot_description_kinematics/manipulator/kinematics_solver_attempts: 3
+ * /robot_description_kinematics/manipulator/kinematics_solver_search_resolution: 0.005
+ * /robot_description_kinematics/manipulator/kinematics_solver_timeout: 0.005
+ * /robot_description_planning/joint_limits/elbow_joint/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/elbow_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/elbow_joint/max_acceleration: 3.15
+ * /robot_description_planning/joint_limits/elbow_joint/max_velocity: 3.15
+ * /robot_description_planning/joint_limits/left_gear_joint/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_gear_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_gear_joint/max_acceleration: 3.2
+ * /robot_description_planning/joint_limits/left_gear_joint/max_position: 1.34365
+ * /robot_description_planning/joint_limits/left_gear_joint/max_velocity: 3.2
+ * /robot_description_planning/joint_limits/left_gear_joint/min_position: 0.0
+ * /robot_description_planning/joint_limits/shoulder_lift_joint/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/shoulder_lift_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/shoulder_lift_joint/max_acceleration: 3.15
+ * /robot_description_planning/joint_limits/shoulder_lift_joint/max_velocity: 3.15
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/max_acceleration: 3.15
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/max_velocity: 3.15
+ * /robot_description_planning/joint_limits/wrist_1_joint/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/wrist_1_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/wrist_1_joint/max_acceleration: 3.2
+ * /robot_description_planning/joint_limits/wrist_1_joint/max_velocity: 3.2
+ * /robot_description_planning/joint_limits/wrist_2_joint/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/wrist_2_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/wrist_2_joint/max_acceleration: 3.2
+ * /robot_description_planning/joint_limits/wrist_2_joint/max_velocity: 3.2
+ * /robot_description_planning/joint_limits/wrist_3_joint/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/wrist_3_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/wrist_3_joint/max_acceleration: 3.2
+ * /robot_description_planning/joint_limits/wrist_3_joint/max_velocity: 3.2
+ * /robot_description_semantic: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 50.0
+ * /robot_state_publisher/tf_prefix: 
+ * /rosdistro: noetic
+ * /rosversion: 1.15.14
+ * /rviz_hrishikesh_Lenovo_Yoga_C740_14IML_6384_3789105216029256222/manipulator/kinematics_solver: kdl_kinematics_pl...
+ * /rviz_hrishikesh_Lenovo_Yoga_C740_14IML_6384_3789105216029256222/manipulator/kinematics_solver_attempts: 3
+ * /rviz_hrishikesh_Lenovo_Yoga_C740_14IML_6384_3789105216029256222/manipulator/kinematics_solver_search_resolution: 0.005
+ * /rviz_hrishikesh_Lenovo_Yoga_C740_14IML_6384_3789105216029256222/manipulator/kinematics_solver_timeout: 0.005
+ * /use_sim_time: True
+
+NODES
+  /
+    arm_controller_spawner (controller_manager/controller_manager)
+    fake_joint_calibration (rostopic/rostopic)
+    gazebo (gazebo_ros/gzserver)
+    gripper_control (ur3_sim/gripper.py)
+    gripper_controller_spawner (controller_manager/spawner)
+    joint_state_controller_spawner (controller_manager/controller_manager)
+    move_group (moveit_ros_move_group/move_group)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    ros_control_controller_manager (controller_manager/controller_manager)
+    rviz_hrishikesh_Lenovo_Yoga_C740_14IML_6384_3789105216029256222 (rviz/rviz)
+    spawn_gazebo_model (gazebo_ros/spawn_model)
+
+auto-starting new master
+process[master]: started with pid [6396]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 0851a154-f7b1-11ec-889e-cf6b6a21f437
+process[rosout-1]: started with pid [6406]
+started core service [/rosout]
+process[gazebo-2]: started with pid [6413]
+process[spawn_gazebo_model-3]: started with pid [6418]
+process[robot_state_publisher-4]: started with pid [6419]
+process[fake_joint_calibration-5]: started with pid [6420]
+process[joint_state_controller_spawner-6]: started with pid [6421]
+process[arm_controller_spawner-7]: started with pid [6422]
+process[gripper_controller_spawner-8]: started with pid [6427]
+process[ros_control_controller_manager-9]: started with pid [6429]
+process[move_group-10]: started with pid [6431]
+process[rviz_hrishikesh_Lenovo_Yoga_C740_14IML_6384_3789105216029256222-11]: started with pid [6432]
+process[gripper_control-12]: started with pid [6433]
+[ WARN] [1656510029.445321816]: Falling back to using the move_group node's namespace (deprecated Melodic behavior).
+[ INFO] [1656510029.487033859]: Loading robot model 'ur3'...
+[ INFO] [1656510029.694264648]: rviz version 1.14.14
+[ INFO] [1656510029.694364743]: compiled against Qt version 5.12.8
+[ INFO] [1656510029.694398005]: compiled against OGRE version 1.9.0 (Ghadamon)
+[ INFO] [1656510029.741459127]: Forcing OpenGl version 0.
+[INFO] [1656510030.075323, 0.000000]: Loading model XML from ros parameter robot_description
+[INFO] [1656510030.097274, 0.000000]: Controller Spawner: Waiting for service controller_manager/load_controller
+[INFO] [1656510030.100496, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[ INFO] [1656510030.334435101]: Stereo is NOT SUPPORTED
+[ INFO] [1656510030.334548827]: OpenGL device: Mesa Intel(R) UHD Graphics (CML GT2)
+[ INFO] [1656510030.334600755]: OpenGl version: 4.6 (GLSL 4.6) limited to GLSL 1.4 on Mesa system.
+[ WARN] [1656510030.337269947]: Kinematics solver doesn't support #attempts anymore, but only a timeout.
+Please remove the parameter '/robot_description_kinematics/manipulator/kinematics_solver_attempts' from your configuration.
+Start
+[ INFO] [1656510030.967389156]: Loading robot model 'ur3'...
+[ INFO] [1656510031.039216030]: Finished loading Gazebo ROS API Plugin.
+[ INFO] [1656510031.042008471]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+[ INFO] [1656510031.486760848]: Publishing maintained planning scene on 'monitored_planning_scene'
+[ INFO] [1656510031.493736913]: Listening to 'joint_states' for joint states
+[ INFO] [1656510031.505440320]: Listening to '/attached_collision_object' for attached collision objects
+[ INFO] [1656510031.505520043]: Starting planning scene monitor
+[ INFO] [1656510031.510907427]: Listening to '/planning_scene'
+[ INFO] [1656510031.510974785]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[ INFO] [1656510031.516739622]: Listening to '/collision_object'
+[ INFO] [1656510031.522796848]: Listening to '/planning_scene_world' for planning scene world geometry
+[ INFO] [1656510031.524924856]: No 3D sensor plugin(s) defined for octomap updates
+[ WARN] [1656510031.532641691]: Kinematics solver doesn't support #attempts anymore, but only a timeout.
+Please remove the parameter '/robot_description_kinematics/manipulator/kinematics_solver_attempts' from your configuration.
+[ INFO] [1656510031.836156444]: waitForService: Service [/gazebo/set_physics_properties] is now available.
+[ INFO] [1656510031.884037863]: Physics dynamic reconfigure ready.
+[INFO] [1656510031.915655, 0.000000]: Calling service /gazebo/spawn_urdf_model
+[ INFO] [1656510032.412228427]: Loading planning pipeline ''
+[ INFO] [1656510032.493435367]: Using planning interface 'OMPL'
+[ INFO] [1656510032.499541992]: Param 'default_workspace_bounds' was not set. Using default value: 10
+[ INFO] [1656510032.500171111]: Param 'start_state_max_bounds_error' was set to 0.1
+[ INFO] [1656510032.500707202]: Param 'start_state_max_dt' was not set. Using default value: 0.5
+[ INFO] [1656510032.501277643]: Param 'start_state_max_dt' was not set. Using default value: 0.5
+[ INFO] [1656510032.501844321]: Param 'jiggle_fraction' was set to 0.05
+[ INFO] [1656510032.502521418]: Param 'max_sampling_attempts' was not set. Using default value: 100
+[ INFO] [1656510032.502594949]: Using planning request adapter 'Add Time Parameterization'
+[ INFO] [1656510032.502637179]: Using planning request adapter 'Fix Workspace Bounds'
+[ INFO] [1656510032.502673936]: Using planning request adapter 'Fix Start State Bounds'
+[ INFO] [1656510032.502713455]: Using planning request adapter 'Fix Start State In Collision'
+[ INFO] [1656510032.502747415]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1656510032.579373, 0.000000]: Spawn status: SpawnModel: Successfully spawned entity
+[INFO] [1656510032.581767, 0.000000]: Waiting for service /gazebo/set_model_configuration
+[INFO] [1656510032.586165, 0.000000]: temporary hack to **fix** the -J joint position option (issue #93), sleeping for 1 second to avoid race condition.
+[ INFO] [1656510032.942061627]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1656510032.946536548]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+[ERROR] [1656510033.078073630]: Unsupported Gazebo ImageFormat
+
+[INFO] [1656510033.589560, 0.000000]: Calling service /gazebo/set_model_configuration
+[INFO] [1656510033.597868, 0.000000]: Set model configuration status: SetModelConfiguration: success
+[INFO] [1656510033.599966, 0.000000]: Unpausing physics
+[ INFO] [1656510034.122229250]: Loading gazebo_ros_control plugin
+[ INFO] [1656510034.122409626]: Starting gazebo_ros_control plugin in namespace: /
+[ INFO] [1656510034.124154125]: gazebo_ros_control plugin is waiting for model URDF in parameter [robot_description] on the ROS param server.
+[ERROR] [1656510034.258031408]: No p gain specified for pid.  Namespace: /gazebo_ros_control/pid_gains/shoulder_pan_joint
+[ERROR] [1656510034.259230651]: No p gain specified for pid.  Namespace: /gazebo_ros_control/pid_gains/shoulder_lift_joint
+[ERROR] [1656510034.260363257]: No p gain specified for pid.  Namespace: /gazebo_ros_control/pid_gains/elbow_joint
+[ERROR] [1656510034.261446793]: No p gain specified for pid.  Namespace: /gazebo_ros_control/pid_gains/wrist_1_joint
+[ERROR] [1656510034.262519221]: No p gain specified for pid.  Namespace: /gazebo_ros_control/pid_gains/wrist_2_joint
+[ERROR] [1656510034.263680184]: No p gain specified for pid.  Namespace: /gazebo_ros_control/pid_gains/wrist_3_joint
+[ERROR] [1656510034.264798602]: No p gain specified for pid.  Namespace: /gazebo_ros_control/pid_gains/left_gear_joint
+[ INFO] [1656510034.275672850]: Loaded gazebo_ros_control.
+[ INFO] [1656510034.293763654]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "right_gear_joint", Multiplier: 1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.296226166]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "right_arm_bottom_joint", Multiplier: -1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.296379371]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "left_arm_bottom_joint", Multiplier: 1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.296552846]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "right_arm_top_joint", Multiplier: -1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.296717266]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "left_arm_top_joint", Multiplier: 1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.296881330]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "left_stick_joint", Multiplier: -1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.297018628]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "right_stick_joint", Multiplier: 1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.297181448]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "left_stick_top_joint", Multiplier: -1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+[ INFO] [1656510034.297318002]: MimicJointPlugin loaded! Joint: "left_gear_joint", Mimic joint: "right_stick_top_joint", Multiplier: 1, Offset: 0, MaxEffort: 1000, Sensitiveness: 0
+Loaded 'joint_state_controller'
+[spawn_gazebo_model-3] process has finished cleanly
+log file: /home/hrishikesh/.ros/log/0851a154-f7b1-11ec-889e-cf6b6a21f437/spawn_gazebo_model-3*.log
+[INFO] [1656510034.327445, 0.027000]: Controller Spawner: Waiting for service controller_manager/switch_controller
+[INFO] [1656510034.349869, 0.047000]: Controller Spawner: Waiting for service controller_manager/unload_controller
+[INFO] [1656510034.361501, 0.047000]: Loading controller: gripper
+Loaded 'arm_controller'
+Started ['joint_state_controller'] successfully
+[INFO] [1656510034.451916, 0.146000]: Controller Spawner: Loaded controllers: gripper
+Started ['arm_controller'] successfully
+[INFO] [1656510034.458607, 0.152000]: Started controllers: gripper
+Loaded 'joint_group_position_controller'
+[ INFO] [1656510034.653833121, 0.334000000]: Added FollowJointTrajectory controller for 
+[ INFO] [1656510034.974557392, 0.625000000]: Added GripperCommand controller for gripper
+[ INFO] [1656510034.974811455, 0.625000000]: Returned 2 controllers in list
+[ INFO] [1656510035.000225645, 0.646000000]: Trajectory execution is managing controllers
+[ INFO] [1656510035.000305380, 0.646000000]: MoveGroup debug mode is OFF
+Loading 'move_group/ApplyPlanningSceneService'...
+Loading 'move_group/ClearOctomapService'...
+Loading 'move_group/MoveGroupCartesianPathService'...
+Loading 'move_group/MoveGroupExecuteTrajectoryAction'...
+Loading 'move_group/MoveGroupGetPlanningSceneService'...
+Loading 'move_group/MoveGroupKinematicsService'...
+Loading 'move_group/MoveGroupMoveAction'...
+Loading 'move_group/MoveGroupPickPlaceAction'...
+[joint_state_controller_spawner-6] process has finished cleanly
+log file: /home/hrishikesh/.ros/log/0851a154-f7b1-11ec-889e-cf6b6a21f437/joint_state_controller_spawner-6*.log
+Loading 'move_group/MoveGroupPlanService'...
+Loading 'move_group/MoveGroupQueryPlannersService'...
+Loading 'move_group/MoveGroupStateValidationService'...
+[ INFO] [1656510035.188277121, 0.792000000]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - PickPlaceAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[ INFO] [1656510035.189040411, 0.793000000]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[ INFO] [1656510035.189099659, 0.793000000]: MoveGroup context initialization complete
+
+You can start planning now!
+
+[arm_controller_spawner-7] process has finished cleanly
+log file: /home/hrishikesh/.ros/log/0851a154-f7b1-11ec-889e-cf6b6a21f437/arm_controller_spawner-7*.log
+[ros_control_controller_manager-9] process has finished cleanly
+log file: /home/hrishikesh/.ros/log/0851a154-f7b1-11ec-889e-cf6b6a21f437/ros_control_controller_manager-9*.log
+[ INFO] [1656510036.290817168, 1.821000000]: Ready to take commands for planning group gripper.
+[ INFO] [1656510037.545472024, 2.990000000]: Loading robot model 'ur3'...
+[ WARN] [1656510038.145627071, 3.545000000]: Kinematics solver doesn't support #attempts anymore, but only a timeout.
+Please remove the parameter '/rviz_hrishikesh_Lenovo_Yoga_C740_14IML_6384_3789105216029256222/manipulator/kinematics_solver_attempts' from your configuration.
+[ INFO] [1656510039.341856507, 4.710000000]: Starting planning scene monitor
+[ INFO] [1656510039.345855131, 4.714000000]: Listening to '/move_group/monitored_planning_scene'
+[ INFO] [1656510040.325407139, 5.665000000]: Constructing new MoveGroup connection for group 'manipulator' in namespace ''
+[ INFO] [1656510041.503606435, 6.801000000]: Ready to take commands for planning group manipulator.
+[ INFO] [1656510097.895822593, 61.009000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ INFO] [1656510097.903078044, 61.016000000]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1656510097.906087763, 61.019000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.906402528, 61.019000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.906516889, 61.019000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.906694404, 61.019000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.930366803, 61.039000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510097.931854261, 61.041000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510097.933462398, 61.042000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510097.935806093, 61.045000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510097.936092053, 61.045000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.031192 seconds
+[ INFO] [1656510097.936462579, 61.045000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.936603042, 61.045000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.936747147, 61.045000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.937134074, 61.045000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.946706184, 61.052000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510097.952002094, 61.057000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510097.953768219, 61.058000000]: manipulator/manipulator: Created 5 states (3 start + 2 goal)
+[ INFO] [1656510097.954605962, 61.059000000]: manipulator/manipulator: Created 5 states (3 start + 2 goal)
+[ INFO] [1656510097.954839320, 61.059000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.018549 seconds
+[ INFO] [1656510097.955150047, 61.060000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.955223410, 61.060000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510097.968918514, 61.072000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510097.972053498, 61.075000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510097.972399800, 61.075000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.017405 seconds
+[ INFO] [1656510098.008166170, 61.107000000]: SimpleSetup: Path simplification took 0.035466 seconds and changed from 3 to 2 states
+[ INFO] [1656510099.161134891, 62.189000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ INFO] [1656510099.164204012, 62.192000000]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1656510099.165009557, 62.192000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.165122443, 62.193000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.165228592, 62.193000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.166074563, 62.194000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.188477050, 62.213000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510099.197132918, 62.220000000]: manipulator/manipulator: Created 5 states (3 start + 2 goal)
+[ INFO] [1656510099.197435230, 62.220000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510099.202304353, 62.224000000]: manipulator/manipulator: Created 5 states (3 start + 2 goal)
+[ INFO] [1656510099.202534998, 62.225000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.038052 seconds
+[ INFO] [1656510099.202863524, 62.225000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.202937482, 62.225000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.203020096, 62.225000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.203100877, 62.225000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.212493639, 62.228000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510099.214301724, 62.229000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510099.214707889, 62.229000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510099.220476474, 62.234000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510099.220926092, 62.234000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.018188 seconds
+[ INFO] [1656510099.221383761, 62.234000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.221486871, 62.234000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510099.234634633, 62.245000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510099.235958192, 62.246000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510099.236208528, 62.247000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.015042 seconds
+[ INFO] [1656510099.266575917, 62.275000000]: SimpleSetup: Path simplification took 0.030233 seconds and changed from 3 to 2 states
+[ INFO] [1656510101.336716064, 64.246000000]: Execution request received
+[ INFO] [1656510102.294515282, 65.151000000]: Controller '' successfully finished
+[ INFO] [1656510102.312199196, 65.169000000]: Completed trajectory execution with status SUCCEEDED ...
+[ INFO] [1656510102.312381574, 65.169000000]: Execution completed: SUCCEEDED
+[ INFO] [1656510126.789627438, 88.129000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ INFO] [1656510126.793295020, 88.132000000]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1656510126.794377952, 88.133000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.794465979, 88.133000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.794560529, 88.133000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.794912322, 88.134000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.816926475, 88.149000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.819443686, 88.149000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.819913614, 88.150000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510126.824061142, 88.154000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.824241172, 88.154000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.030645 seconds
+[ INFO] [1656510126.824519051, 88.154000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.824664712, 88.154000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.824973477, 88.154000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.825180150, 88.154000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.836048925, 88.162000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.839215744, 88.164000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.839762188, 88.165000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.840809100, 88.166000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.840996540, 88.166000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.016608 seconds
+[ INFO] [1656510126.841270724, 88.166000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.841358118, 88.166000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510126.852491768, 88.172000000]: manipulator/manipulator: Created 5 states (3 start + 2 goal)
+[ INFO] [1656510126.853178361, 88.173000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510126.853409914, 88.173000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.012258 seconds
+[ INFO] [1656510126.903158118, 88.219000000]: SimpleSetup: Path simplification took 0.049625 seconds and changed from 3 to 2 states
+[ INFO] [1656510128.901231873, 90.088000000]: Execution request received
+[ INFO] [1656510130.291814554, 91.389000000]: Controller '' successfully finished
+[ INFO] [1656510130.292021810, 91.389000000]: Completed trajectory execution with status SUCCEEDED ...
+[ INFO] [1656510130.292211848, 91.389000000]: Execution completed: SUCCEEDED
+[ INFO] [1656510175.514564348, 133.969000000]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[ INFO] [1656510175.514850359, 133.969000000]: Planning attempt 1 of at most 1
+[ INFO] [1656510175.517915854, 133.972000000]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1656510175.518741432, 133.973000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510175.518835942, 133.973000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510175.518937331, 133.973000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510175.519036215, 133.973000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510180.518478760, 137.769000000]: manipulator/manipulator: Created 768 states (599 start + 169 goal)
+[ INFO] [1656510180.518769922, 137.769000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510180.519733432, 137.770000000]: manipulator/manipulator: Created 664 states (523 start + 141 goal)
+[ INFO] [1656510180.519832719, 137.770000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510180.520292661, 137.771000000]: manipulator/manipulator: Created 651 states (501 start + 150 goal)
+[ INFO] [1656510180.520375384, 137.771000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510180.521322025, 137.772000000]: manipulator/manipulator: Created 657 states (516 start + 141 goal)
+[ INFO] [1656510180.521388334, 137.772000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510180.521571211, 137.772000000]: ProblemDefinition: Adding approximate solution from planner PathHybridization
+[ INFO] [1656510180.521636960, 137.772000000]: ParallelPlan::solve(): Solution found by one or more threads in 5.003454 seconds
+[ WARN] [1656510180.521764842, 137.772000000]: Computed solution is approximate
+[ INFO] [1656510180.521836602, 137.772000000]: Unable to solve the planning problem
+[ INFO] [1656510180.539614414, 137.789000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ INFO] [1656510180.542720555, 137.792000000]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1656510180.544388949, 137.793000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510180.544691566, 137.794000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510180.546227491, 137.795000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510180.546325349, 137.795000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510185.543016323, 141.535000000]: manipulator/manipulator: Created 712 states (558 start + 154 goal)
+[ INFO] [1656510185.543162192, 141.535000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510185.543298507, 141.535000000]: manipulator/manipulator: Created 688 states (551 start + 137 goal)
+[ INFO] [1656510185.543386344, 141.535000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510185.544563786, 141.536000000]: manipulator/manipulator: Created 781 states (623 start + 158 goal)
+[ INFO] [1656510185.544827341, 141.537000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510185.547856084, 141.539000000]: manipulator/manipulator: Created 675 states (529 start + 146 goal)
+[ INFO] [1656510185.547950520, 141.540000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510185.548155992, 141.540000000]: ProblemDefinition: Adding approximate solution from planner PathHybridization
+[ INFO] [1656510185.548231209, 141.540000000]: ParallelPlan::solve(): Solution found by one or more threads in 5.004473 seconds
+[ WARN] [1656510185.548307487, 141.540000000]: Computed solution is approximate
+[ INFO] [1656510185.548342467, 141.540000000]: Unable to solve the planning problem
+[ INFO] [1656510185.574320309, 141.564000000]: ABORTED: No motion plan found. No execution attempted.
+[ WARN] [1656510185.574417846, 141.564000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1656510197.016078707, 152.289000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ INFO] [1656510197.018985303, 152.291000000]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1656510197.020541640, 152.293000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510197.020629667, 152.293000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510197.020718971, 152.293000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510197.020818559, 152.293000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510202.019258653, 155.959000000]: manipulator/manipulator: Created 724 states (574 start + 150 goal)
+[ INFO] [1656510202.019516986, 155.960000000]: manipulator/manipulator: Created 799 states (625 start + 174 goal)
+[ INFO] [1656510202.019605868, 155.960000000]: manipulator/manipulator: Created 739 states (611 start + 128 goal)
+[ INFO] [1656510202.019696714, 155.960000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510202.019820011, 155.960000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510202.019975495, 155.960000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510202.020920585, 155.961000000]: manipulator/manipulator: Created 734 states (589 start + 145 goal)
+[ INFO] [1656510202.020979600, 155.961000000]: ProblemDefinition: Adding approximate solution from planner manipulator/manipulator
+[ INFO] [1656510202.021144166, 155.961000000]: ProblemDefinition: Adding approximate solution from planner PathHybridization
+[ INFO] [1656510202.021215453, 155.961000000]: ParallelPlan::solve(): Solution found by one or more threads in 5.001354 seconds
+[ WARN] [1656510202.021285376, 155.961000000]: Computed solution is approximate
+[ INFO] [1656510202.021326847, 155.961000000]: Unable to solve the planning problem
+[ WARN] [1656510202.030210486, 155.968000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1656510230.372302671, 182.509000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ INFO] [1656510230.375540652, 182.512000000]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1656510230.377417063, 182.514000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.377559894, 182.514000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.377738195, 182.514000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.377918450, 182.515000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.399653939, 182.531000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510230.400047426, 182.531000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510230.403346719, 182.536000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510230.405945800, 182.539000000]: manipulator/manipulator: Created 5 states (3 start + 2 goal)
+[ INFO] [1656510230.406123441, 182.539000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.029467 seconds
+[ INFO] [1656510230.406442310, 182.539000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.406517994, 182.539000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.407817979, 182.541000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.408162809, 182.541000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.417621973, 182.547000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510230.422956485, 182.551000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510230.423107836, 182.551000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510230.428347242, 182.555000000]: manipulator/manipulator: Created 5 states (2 start + 3 goal)
+[ INFO] [1656510230.428607072, 182.555000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.022299 seconds
+[ INFO] [1656510230.428933205, 182.556000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.429016627, 182.556000000]: manipulator/manipulator: Starting planning with 1 states already in datastructure
+[ INFO] [1656510230.439211441, 182.564000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510230.445029670, 182.568000000]: manipulator/manipulator: Created 4 states (2 start + 2 goal)
+[ INFO] [1656510230.445432746, 182.569000000]: ParallelPlan::solve(): Solution found by one or more threads in 0.016629 seconds
+[ INFO] [1656510230.482908216, 182.604000000]: SimpleSetup: Path simplification took 0.037277 seconds and changed from 3 to 2 states
+[ INFO] [1656510240.020932609, 191.665000000]: Execution request received
+[ INFO] [1656510241.414461957, 192.969000000]: Controller '' successfully finished
+[ INFO] [1656510241.414624589, 192.969000000]: Completed trajectory execution with status SUCCEEDED ...
+[ INFO] [1656510241.414820270, 192.969000000]: Execution completed: SUCCEEDED
+
+

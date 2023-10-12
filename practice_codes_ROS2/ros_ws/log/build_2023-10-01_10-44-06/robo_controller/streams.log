@@ -1,0 +1,23 @@
+[0.631s] Invoking command in '/home/fiend/ros2_ws/build/robo_controller': PYTHONPATH=/home/fiend/ros2_ws/build/robo_controller/prefix_override:/home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/fiend/ros2_ws/build/robo_controller/build --no-deps install_data
+[0.837s] running develop
+[0.839s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.839s]   warnings.warn(
+[0.840s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.840s]   warnings.warn(
+[0.961s] running egg_info
+[0.962s] writing robo_controller.egg-info/PKG-INFO
+[0.962s] writing dependency_links to robo_controller.egg-info/dependency_links.txt
+[0.962s] writing entry points to robo_controller.egg-info/entry_points.txt
+[0.962s] writing requirements to robo_controller.egg-info/requires.txt
+[0.962s] writing top-level names to robo_controller.egg-info/top_level.txt
+[0.963s] reading manifest file 'robo_controller.egg-info/SOURCES.txt'
+[0.969s] writing manifest file 'robo_controller.egg-info/SOURCES.txt'
+[0.970s] running build_ext
+[0.970s] Creating /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo-controller.egg-link (link to .)
+[0.971s] Installing circle script to /home/fiend/ros2_ws/install/robo_controller/lib/robo_controller
+[0.971s] Installing test_node script to /home/fiend/ros2_ws/install/robo_controller/lib/robo_controller
+[0.971s] 
+[0.972s] Installed /home/fiend/ros2_ws/build/robo_controller
+[0.972s] running install_data
+[0.972s] copying package.xml -> /home/fiend/ros2_ws/install/robo_controller/share/robo_controller
+[0.995s] Invoked command in '/home/fiend/ros2_ws/build/robo_controller' returned '0': PYTHONPATH=/home/fiend/ros2_ws/build/robo_controller/prefix_override:/home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/fiend/ros2_ws/build/robo_controller/build --no-deps install_data

@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/robo_controller/robo_controller.egg-info
+writing ../../build/robo_controller/robo_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/robo_controller/robo_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/robo_controller/robo_controller.egg-info/entry_points.txt
+writing requirements to ../../build/robo_controller/robo_controller.egg-info/requires.txt
+writing top-level names to ../../build/robo_controller/robo_controller.egg-info/top_level.txt
+writing manifest file '../../build/robo_controller/robo_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/robo_controller/robo_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/robo_controller/robo_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fiend/ros2_ws/build/robo_controller/build
+creating /home/fiend/ros2_ws/build/robo_controller/build/lib
+creating /home/fiend/ros2_ws/build/robo_controller/build/lib/robo_controller
+copying robo_controller/__init__.py -> /home/fiend/ros2_ws/build/robo_controller/build/lib/robo_controller
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller
+copying /home/fiend/ros2_ws/build/robo_controller/build/lib/robo_controller/__init__.py -> /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller
+byte-compiling /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/fiend/ros2_ws/install/robo_controller/share/ament_index
+creating /home/fiend/ros2_ws/install/robo_controller/share/ament_index/resource_index
+creating /home/fiend/ros2_ws/install/robo_controller/share/ament_index/resource_index/packages
+copying resource/robo_controller -> /home/fiend/ros2_ws/install/robo_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/fiend/ros2_ws/install/robo_controller/share/robo_controller
+running install_egg_info
+Copying ../../build/robo_controller/robo_controller.egg-info to /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/fiend/ros2_ws/build/robo_controller/install.log'

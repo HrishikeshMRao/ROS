@@ -1,0 +1,5 @@
+[console_scripts]
+circle = robo_controller.circle:main
+sub = robo_controller.sub:main
+test_node = robo_controller.node:main
+

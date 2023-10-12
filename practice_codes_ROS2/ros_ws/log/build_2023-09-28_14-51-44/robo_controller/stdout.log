@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/robo_controller/robo_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/robo_controller/robo_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/robo_controller/robo_controller.egg-info/entry_points.txt
+writing requirements to ../../build/robo_controller/robo_controller.egg-info/requires.txt
+writing top-level names to ../../build/robo_controller/robo_controller.egg-info/top_level.txt
+reading manifest file '../../build/robo_controller/robo_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/robo_controller/robo_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robo_controller/node.py -> /home/fiend/ros2_ws/build/robo_controller/build/lib/robo_controller
+running install
+running install_lib
+copying /home/fiend/ros2_ws/build/robo_controller/build/lib/robo_controller/node.py -> /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller
+byte-compiling /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller/node.py to node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robo_controller/robo_controller.egg-info to /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/fiend/ros2_ws/build/robo_controller/install.log'

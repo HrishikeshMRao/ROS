@@ -1,0 +1,25 @@
+[1.441s] Invoking command in '/home/fiend/ros2_ws/src/robo_controller': PYTHONPATH=/home/fiend/ros2_ws/build/robo_controller/prefix_override:/home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robo_controller build --build-base /home/fiend/ros2_ws/build/robo_controller/build install --record /home/fiend/ros2_ws/build/robo_controller/install.log --single-version-externally-managed
+[1.905s] running egg_info
+[1.906s] writing ../../build/robo_controller/robo_controller.egg-info/PKG-INFO
+[1.913s] writing dependency_links to ../../build/robo_controller/robo_controller.egg-info/dependency_links.txt
+[1.913s] writing entry points to ../../build/robo_controller/robo_controller.egg-info/entry_points.txt
+[1.914s] writing requirements to ../../build/robo_controller/robo_controller.egg-info/requires.txt
+[1.914s] writing top-level names to ../../build/robo_controller/robo_controller.egg-info/top_level.txt
+[1.918s] reading manifest file '../../build/robo_controller/robo_controller.egg-info/SOURCES.txt'
+[1.919s] writing manifest file '../../build/robo_controller/robo_controller.egg-info/SOURCES.txt'
+[1.920s] running build
+[1.920s] running build_py
+[1.920s] copying robo_controller/node.py -> /home/fiend/ros2_ws/build/robo_controller/build/lib/robo_controller
+[1.921s] running install
+[1.921s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.922s]   warnings.warn(
+[1.922s] running install_lib
+[1.924s] copying /home/fiend/ros2_ws/build/robo_controller/build/lib/robo_controller/node.py -> /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller
+[1.925s] byte-compiling /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller/node.py to node.cpython-310.pyc
+[1.926s] running install_data
+[1.927s] running install_egg_info
+[1.930s] removing '/home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.931s] Copying ../../build/robo_controller/robo_controller.egg-info to /home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages/robo_controller-0.0.0-py3.10.egg-info
+[1.932s] running install_scripts
+[1.973s] writing list of installed files to '/home/fiend/ros2_ws/build/robo_controller/install.log'
+[2.012s] Invoked command in '/home/fiend/ros2_ws/src/robo_controller' returned '0': PYTHONPATH=/home/fiend/ros2_ws/build/robo_controller/prefix_override:/home/fiend/ros2_ws/install/robo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robo_controller build --build-base /home/fiend/ros2_ws/build/robo_controller/build install --record /home/fiend/ros2_ws/build/robo_controller/install.log --single-version-externally-managed
